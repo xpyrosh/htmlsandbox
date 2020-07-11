@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div, Span, ID & Class</title>
+    <style>
+        .card {
+            border: 1px solid #cccccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance {
+            color: yellow;
+            background-color: black;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main-header">
+        <h1>Weebsite</h1>
+        <p>Some test site</p>
+    </div>
+    <div id="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <!-- type div#word and it makes a div with the id 'word' -->
+    <div id="about" class="card">
+        <h3>About</h3>
+        <!-- Use spans for inline css instead of using div -->
+        <p>Lorem ipsum dolor sit amet <span class="enhance">consectetur adipisicing elit.</span> Nihil, tempore!</p>
+    </div>
+    <div id="contact" class="card">
+        <h3>Contact</h3>
+        <ul>
+            <li>Address: something</li>
+            <li>cell: 12313486486</li>
+            <li>email: jasdnias@gmailc.om</li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>Copyright some udemy course</p>
+    </div>
+</body>
+</html>
